@@ -40,7 +40,12 @@ class ViewController: UIViewController {
         let page4StoryBoard = UIStoryboard(name: "Page4Storyboard", bundle: nil)
         
         let pc4 = page4StoryBoard.instantiateViewController(withIdentifier: "Page4View")
-        navigationController?.pushViewController(pc4, animated: true)
+       
+        //네비게이션 뷰
+        // navigationController?.pushViewController(pc4, animated: true)
+        
+        //모달
+        present(pc4, animated: true, completion: nil)
         
         
     }

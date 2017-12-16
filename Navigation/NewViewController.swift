@@ -1,5 +1,5 @@
 //
-//  Page2ViewController.swift
+//  NewViewController.swift
 //  Navigation
 //
 //  Created by SO YOUNG on 2017. 12. 16..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Page2ViewController: UIViewController {
+class NewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +21,7 @@ class Page2ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet weak var d: UIButton!
-    
+
     /*
     // MARK: - Navigation
 
